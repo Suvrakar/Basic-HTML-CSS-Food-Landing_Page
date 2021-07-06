@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f7f0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex_display{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+
+span{
+    color: orange;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.Header{
+    width: 50%;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.picHeader{
+    width: 50%;
+}
+
+.bttn{
+    margin-top: 10px;
+    display:inline-block;
+    padding: 10px 40px;
+    border: 1px solid black; 
+    background: linear-gradient(orange,yellow);
+    border-radius: 30px;
+}
+
+.bttn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.midPic{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.AboutPic{
+    width: 50%;
+    background-image: url(images/female/Person/Image.png);
+    background-repeat: no-repeat;
+}
+
+.AboutPic img{
+height: 600px;
+padding-left: 200px;
+background-repeat: no-repeat;
+}
+
+.AboutPara{
+    width: 50%;
+
+}
+
+.centerPos{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.MyRecipies{
+    margin-top: 30px;
+}
+
+.likhaAlign{
+    margin-left: 10px;
+    width: 300px;
+}
+
+.card1{
+  margin-left: 10%;
+  height: 500px;
+  border-radius: 15px;
+  background-color:white;
+  padding: 5px;
+  flex:1;
+  box-shadow: 5px 10px 20px #888888;
+}
+
+.card1 img{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+
+}
+
+
+.card2{
+    margin-left: 10%;
+    height: 500px;
+    box-shadow: 5px 10px 20px #888888;
+    border-radius: 15px;
+    background-color:white;
+    padding: 5px;
+    flex:1;
+}
+
+
+.card2 img{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+ }
+
+
+.card3{
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 500px;
+    box-shadow: 5px 10px 20px #888888;
+    border-radius: 15px;
+    background-color:white;
+    padding: 5px;
+    flex:1;
+}
+
+
+.card3 img{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+   
+ }
+
+ .wrapperdown{
+     margin-top: 40px;
+     width: 70%;
+     margin-left: 200px;
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 5px 10px 20px #888888;
+ }
+
+
+
+ .youtube{
+     flex: 1;
+     text-align: center;
+ }
+
+ .instagram{
+     flex:1;
+     text-align: center;
+ }
+
+ .instagram{
+     flex: 1;
+     text-align: center;
+ }
+
+ footer{
+    margin-top: 30px;
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+    padding: 90px;
+
+ }
+
+
