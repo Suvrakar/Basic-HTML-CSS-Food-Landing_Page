@@ -45,10 +45,11 @@ p{
     margin-top: 10px;
     display:inline-block;
     padding: 10px 40px;
-    border: 1px solid black; 
     background: linear-gradient(orange,yellow);
     border-radius: 30px;
+    box-shadow: 5px 5px 20px #888888;
 }
+
 
 .bttn a{
     text-decoration: none;
