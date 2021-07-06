@@ -53,6 +53,7 @@ p{
 .bttn a{
     text-decoration: none;
     color: black;
+    font-weight: 600;
 
 }
 
@@ -182,5 +183,7 @@ background-repeat: no-repeat;
     padding: 90px;
 
  }
+
+
 
 
